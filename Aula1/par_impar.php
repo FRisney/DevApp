@@ -8,4 +8,3 @@ if($num % 2 == 0){
 	echo "O numero é impar";
 }
 echo PHP_EOL;
-?>

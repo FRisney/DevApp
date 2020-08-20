@@ -33,4 +33,3 @@ switch($operacao){
 
 echo "O Resultado de ".$num1." ".$operacao." ".$num2." = ".$resultado.PHP_EOL;
 
-?>
