@@ -3,24 +3,32 @@
 <head>
    <meta charset="UTF-8">
    <title>Aula 9</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <input id="display" readonly>
-   <button class="num" onclick="numero(1)">1</button>
-   <button class="num" onclick="numero(2)">2</button>
-   <button class="num" onclick="numero(3)">3</button>
-   <button class="num" onclick="numero(4)">4</button>
-   <button class="num" onclick="numero(5)">5</button>
-   <button class="num" onclick="numero(6)">6</button>
-   <button class="num" onclick="numero(7)">7</button>
-   <button class="num" onclick="numero(8)">8</button>
-   <button class="num" onclick="numero(9)">9</button>
-   <button class="num" onclick="numero(0)">0</button>
-   <button class="ope" onclick="selOpe('+')">+</button>
-   <button class="ope" onclick="selOpe('-')">-</button>
-   <button class="ope" onclick="selOpe('*')">*</button>
-   <button class="ope" onclick="selOpe('/')">/</button>
-   <button class="cal" onclick="calcula()">=</button>
-   <script src="script.js"></script></body>
+   <div class="container">
+      <input id="display" readonly>
+      <div class="num">
+         <button onclick="numero(1)">1</button>
+         <button onclick="numero(2)">2</button>
+         <button onclick="numero(3)">3</button>
+         <button onclick="numero(4)">4</button>
+         <button onclick="numero(5)">5</button>
+         <button onclick="numero(6)">6</button>
+         <button onclick="numero(7)">7</button>
+         <button onclick="numero(8)">8</button>
+         <button onclick="numero(9)">9</button>
+         <button onclick="numero(0)">0</button>
+         <button onclick="numero('.')">.</button>
+      </div>
+      <div class="ope">
+         <button onclick="selOpe('+')">+</button>
+         <button onclick="selOpe('-')">-</button>
+         <button onclick="selOpe('*')">*</button>
+         <button onclick="selOpe('/')">/</button>
+      </div>
+      <button class="cal" onclick="calcula()">=</button>
+      <script src="script.js"></script></body>
+   </div>
 </body>
 </html>

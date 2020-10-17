@@ -37,7 +37,7 @@ function calcula() {
 		num2 = Number(num2);
 		switch(operacao) {
 			case '+':
-				total = num1 + num2;
+				total = new Intl.NumberFormat('pt-BR').format(num1 + num2);
 				console.log(`${num1} + ${num2} = ${total}`);
 			break;
 			case '-':

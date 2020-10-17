@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 218px 70px;
+	grid-template-rows: 70px 280px 70px;
+	grid-gap: 0px;
+	grid-template-areas:
+		"dis dis"
+		"num ope"
+		"num cal";
+	justify-content: center;
+	align-content: center;
+}
+
+#display {
+	grid-area: dis;
+	text-align: right;
+}
+
+.num {
+	grid-area: num;
+}
+
+.ope {
+	grid-area: ope;
+}
+
+.cal {
+	grid-area: cal;
+}
+
+button {
+	border: 0;
+	height: 70px;
+	width: 70px;
+}
